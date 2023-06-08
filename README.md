@@ -4,6 +4,8 @@
 
 In this project, I need to make real-time Change Data Capture (CDC) with Apache Kafka between MySQL (source) and PostgreSQL (sink).
 
+*Note: This project is top-up from a special class in Road to Data Engineer bootcamp (Kafka fundamentals).*
+
 $~$
 
 ## Technology Used
