@@ -1,6 +1,7 @@
-# Change Data Capture (CDC) with Apache Kafka
+# cdc-kafka
 
-## Introduction
+**Change Data Capture (CDC) with Apache Kafka Project**
+
 In this project, I need to make real-time Change Data Capture (CDC) with Apache Kafka between MySQL (source) and PostgreSQL (sink).
 
 $~$
