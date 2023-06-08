@@ -1,0 +1,20 @@
+{
+  "name": "mysql-source-upload-version",
+  "config": {
+    "connector.class": "io.debezium.connector.mysql.MySqlConnector",
+    "database.hostname": "<database-ip-address>",
+    "database.port": "3306",
+    "database.user": "root",
+    "database.password": "<password>",
+    "database.server.name": "mysql-source",
+    "table.whitelist": "source.fares",
+    "database.history.kafka.bootstrap.servers": "broker:9092",
+    "database.history.kafka.topic": "fares",
+    "decimal.handling.mode": "double",
+    "include.schema.changes": "true",
+    "key.converter": "io.confluent.connect.avro.AvroConverter",
+    "value.converter": "io.confluent.connect.avro.AvroConverter",
+    "key.converter.schema.registry.url": "http://schema-registry:8081",
+    "value.converter.schema.registry.url": "http://schema-registry:8081"
+  }
+}
